@@ -146,7 +146,7 @@ for i, line in tqdm(enumerate(lines), total=len(lines)):
     area_box_1=geom_area.area
     area[i]=area_box_1
     ### plotting line on map ###
-    ax1.plot(*out.geoms[0].exterior.xy,transform=ccrs.epsg(3413),linewidth=linewidth, color=cmap(norm(int(dates_dec[i]))))
+    ax1.plot(*out.geoms[0].exterior.xy,transform=ccrs.epsg(3413),linewidth=linewidth, color=cmap(norm(float(dates_dec[i]))))
 
 ### plot box exterior in black ###
 ax1.plot(*box_geom.exterior.xy,transform=ccrs.epsg(3413),linewidth=linewidth+0.5,color="black")
