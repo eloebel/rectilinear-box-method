@@ -6,17 +6,8 @@ The rectilinear box method is a well-established instrument for tracking glacier
 **Data product for 23 Greenland outlet glacier 2013 to 2021**  
 **Implementation of automated calving front extraction using ANN**  
 
-## Contact
-
-**Erik Loebel**  
-TU Dresden | Geodetic Earth System Research   
-[tu-dresden.de/geo/ipg/gef](https://tu-dresden.de/bu/umwelt/geo/ipg/gef)  
-[erik.loebel@tu-dresden.de](mailto:erik.Loebel@tu-dresden.de)  
-[@ErikLoebel](https://twitter.com/erikloebel)  
-
 ## Citation
 If you find our code helpful and use it in your research, please use the following BibTeX entry.
-
 
 ```
 @article{HEDUNet2021,
@@ -30,3 +21,9 @@ If you find our code helpful and use it in your research, please use the followi
   doi={10.1109/TGRS.2021.3064606}
 }
 ```
+## Contact
+**Erik Loebel**  
+TU Dresden | Geodetic Earth System Research   
+[tu-dresden.de/geo/ipg/gef](https://tu-dresden.de/bu/umwelt/geo/ipg/gef)  
+[erik.loebel@tu-dresden.de](mailto:erik.Loebel@tu-dresden.de)  
+[@ErikLoebel](https://twitter.com/erikloebel)  
