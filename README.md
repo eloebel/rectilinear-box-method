@@ -5,8 +5,8 @@ The rectilinear box method is a well-established instrument for tracking glacier
 ## Usage
 
 
-
-**Data product for 23 Greenland outlet glacier 2013 to 2021**  
+**Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)**  
+**Data product for 23 Greenland outlet glacier 2013 to 2021 (automatically delineated)**  
 **Implementation of automated calving front extraction using ANN**  
 
 ## Citation
