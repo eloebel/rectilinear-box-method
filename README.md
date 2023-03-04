@@ -15,7 +15,9 @@ This repository already includes example data for the Glacier *Harald Moltke BrÃ
 2. Claving front locations (LineSting Shapefile format)
 3. Basemap or image which is used as a background for the figure
 
-The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`. The file names must correspond to the label of the glacier (see example). In addition, the folder structure must be considered (also see example).
+The box should be arranged so that it can be divided into two parts by each calving front line. The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`. The file names must correspond to the label of the glacier. In addition, the folder structure must be considered (see example).
+
+Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 156 of `box_method.py`.
 
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
