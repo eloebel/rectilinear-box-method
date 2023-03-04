@@ -3,10 +3,11 @@ The rectilinear box method is a well-established tool for tracking glacier termi
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
 ## Usage
-All processing is done via the script `box_method.py`. Install all requirements using:
+All processing is done via the script `box_method.py`. Necessary requirements can be installed using:
 ```
 pip install -r requirements.txt
 ```
+This repository already includes a working example for the Glacier Harald Moltke Bræ.
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
 Data product for 23 Greenland outlet glacier 2013 to 2021 (automatically delineated)  
