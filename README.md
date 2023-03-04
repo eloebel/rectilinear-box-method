@@ -1,8 +1,9 @@
 # Rectilinear box method: tracking glacier terminus change
-The rectilinear box method is a well-established instrument for tracking glacier terminus change. Rather than using a single profile to measure advance or retreat, this method uses a rectilinear box that accounts for uneven changes along the calving front. This technique was first introduced by [Moon and Joughin, 2008](https://doi.org/10.1029/2007JF000927). Here we provide a complete and easy to use implementation of the method. 
+The rectilinear box method is a well-established tool for tracking glacier terminus change. Rather than using a single profile to measure advance or retreat, this method uses a rectilinear box that accounts for uneven changes along the calving front. This technique was first described by [Moon and Joughin, 2008](https://doi.org/10.1029/2007JF000927). Here we provide a complete and easy to use implementation of the method. 
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
 ## Usage
+All processing is done via the script *box_method.py*.
 
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
