@@ -8,8 +8,12 @@ All processing is done via the script `box_method.py`. Necessary requirements ca
 ```
 pip install -r requirements.txt
 ```
-#### Running
-Three things are needed for the analysis.
+#### Running the script
+Three things are needed for using this tool:
+1. Glacier box (Polygon Shapefile format)
+2. Claving front locations (LineSting Shapefile format)
+3. Basemap which is used as a background image for the figure
+
 This repository already includes a working example for the Glacier Harald Moltke Bræ.
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
