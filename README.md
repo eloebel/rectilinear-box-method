@@ -13,6 +13,7 @@ Three things are needed for using this tool:
 1. Glacier box (Polygon Shapefile format)
 2. Claving front locations (LineSting Shapefile format)
 3. Basemap which is used as a background image for the figure
+
 The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`.
 This repository already includes a working example for the Glacier Harald Moltke Bræ.
 ### Calving front dataset for Greenland
