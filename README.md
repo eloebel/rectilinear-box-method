@@ -9,18 +9,19 @@ All processing is done via the script `box_method.py`. Necessary requirements ca
 pip install -r requirements.txt
 ```
 ### Running the script
-This repository already includes example data for the Glacier Harald Moltke Bræ (Greenland) which works out-of-the-box by running `python box_method.py`. For processing other glaciers three things are needed:
+This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers three things are needed:
 
 1. Glacier box (Polygon Shapefile format)
 2. Claving front locations (LineSting Shapefile format)
-3. Basemap which is used as a background image for the figure
+3. Basemap or image which is used as a background for the figure
 
-The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`.
+The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`. The file names must correspond to the label of the glacier (see example). In addition, the folder structure must be considered (also see example).
 
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
 Data product for 23 Greenland outlet glacier 2013 to 2021 (automatically delineated)  
-Implementation of automated calving front extraction using ANN  
+Implementation of automated calving front extraction using ANN
+Furthermore we recommend calfin, term picks and zhang
 
 ## Citation
 If you find our code helpful and use it in your research, please use the following BibTeX entry.
