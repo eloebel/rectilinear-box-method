@@ -3,17 +3,17 @@ The rectilinear box method is a well-established tool for tracking glacier termi
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
 ## Usage
-#### Installation
+### Installation
 All processing is done via the script `box_method.py`. Necessary requirements can be installed using:
 ```
 pip install -r requirements.txt
 ```
-#### Running the script
+### Running the script
 Three things are needed for using this tool:
 1. Glacier box (Polygon Shapefile format)
 2. Claving front locations (LineSting Shapefile format)
 3. Basemap which is used as a background image for the figure
-
+The coordinate reference system must be the same for all three inputs and has to be defined in `box_method.py`.
 This repository already includes a working example for the Glacier Harald Moltke Bræ.
 ### Calving front dataset for Greenland
 Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
