@@ -13,31 +13,6 @@ The box should be arranged so that it can be divided into two parts by each calv
 
 Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 156 of `box_method.py`.
 
-## Where can I get calving front data?
-
-### Calving front dataset for Greenland
-Data product for 23 Greenland outlet glacier 2013 to 2021 (manually delineated)  
-Data product for 23 Greenland outlet glacier 2013 to 2021 (automatically delineated)  
-Implementation of automated calving front extraction using ANN
-Furthermore we recommend calfin, term picks and zhang
-
-### Implementation for automated calving front extraction
-
-## Citation
-If you find our code helpful and use it in your research, please use the following BibTeX entry.
-
-```
-@article{HEDUNet2021,
-  author={Heidler, Konrad and Mou, Lichao and Baumhoer, Celia and Dietz, Andreas and Zhu, Xiao Xiang},
-  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
-  title={HED-UNet: Combined Segmentation and Edge Detection for Monitoring the Antarctic Coastline}, 
-  year={2021},
-  volume={},
-  number={},
-  pages={1-14},
-  doi={10.1109/TGRS.2021.3064606}
-}
-```
 ## Contact
 **Erik Loebel**  
 TU Dresden | Geodetic Earth System Research   
