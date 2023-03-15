@@ -24,7 +24,6 @@ from datetime import datetime
 from tifffile import TiffFile
 from osgeo import gdal
 import cartopy.crs as ccrs
-from matplotlib import cm
 import glob
 ### ------------------------------------------
 ### define path ###
@@ -77,7 +76,7 @@ fig.tight_layout()                          # using tight layout
 
 ### set up colorbar ###
 ax0 = fig.add_subplot(gs[0:2, 19])          # position of colorbar in defined grid space
-cmap = cm.get_cmap('viridis', 128)          # using viridis colorbar
+cmap = matplotlib.colormaps['viridis']      # using viridis colorbar
 norm = plt.Normalize(vmin=np.min(dates_dec), vmax=np.max(dates_dec))
 cb1 = matplotlib.colorbar.ColorbarBase(ax0,cmap=cmap, norm=norm, orientation='vertical',ticklocation='right',label='Year')
  
