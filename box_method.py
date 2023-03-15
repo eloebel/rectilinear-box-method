@@ -5,7 +5,7 @@
 # Purpose: Rectilinear box method to quantify glacier terminus position change
 # Repository and documentation: https://github.com/eloebel/rectilinear-box-method
 #
-# Last change: 2023-02-15
+# Last change: 2023-03-15
 #
 #
 # ------------------------------------------
