@@ -17,7 +17,7 @@ This repository already includes example data for the Glacier *Harald Moltke BrÃ
 
 The box should be arranged so that it can be divided into two parts by each calving front line. The coordinate reference system of the inputs can be defined in `box_method.py`. The file names of the basemap and glacier box must correspond to the label of the glacier. In addition, the folder structure must be considered (see example).
 
-Calculated terminus changes are saved into a textfile. In addition, an overview image is generated.
+Calculated terminus changes are saved to a text file. In addition, an overview image is generated.
 
 Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 156 of `box_method.py`.
 
