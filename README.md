@@ -19,7 +19,7 @@ The box should be arranged so that it can be divided into two parts by each calv
 
 Calculated terminus changes are saved to a text file. In addition, an overview image is generated.
 
-Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 156 of `box_method.py`.
+Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 180 of `box_method.py`.
 
 ## Contact
 **Erik Loebel**  
