@@ -2,6 +2,10 @@
 The rectilinear box method is a well-established tool for tracking glacier terminus change. Rather than using a single profile to measure advance or retreat, this method uses a rectilinear box that accounts for uneven changes along the calving front. This technique was first described by [Moon and Joughin, 2008](https://doi.org/10.1029/2007JF000927). Here we provide a complete and easy to use implementation of the method. 
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
+## Installation
+Install all requirements using:
+``pip install -r requirements.txt``
+
 ## Usage
 This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers three things are needed:
 
