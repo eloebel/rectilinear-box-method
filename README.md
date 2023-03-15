@@ -1,5 +1,8 @@
-[![DOI](https://zenodo.org/badge/531123105.svg)](https://zenodo.org/badge/latestdoi/531123105)
 # Rectilinear box method: tracking glacier terminus change
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/531123105.svg)](https://zenodo.org/badge/latestdoi/531123105)
+
 The rectilinear box method is a well-established tool for tracking glacier terminus change. Rather than using a single profile to measure advance or retreat, this method uses a rectilinear box that accounts for uneven changes along the calving front. This technique was first described by [Moon and Joughin, 2008](https://doi.org/10.1029/2007JF000927). Here, we provide a customisable and easy to use implementation of the method. 
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
