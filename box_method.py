@@ -34,7 +34,7 @@ path = os.getcwd()
 glacier = 'harald_moltke_brae'      # this name must correspond the file name of the box and the line-folder
 
 ### define Coordinate Reference System (CRS) ###
-basemap_proj = 'UTM'   # CRS of the basemap -> UTM (UTM-Zone will be selected accordingly) EPSG code (like 4326, 3413, 3031)
+basemap_proj = 'UTM'   # CRS of the basemap -> UTM (UTM-Zone will be selected accordingly) or EPSG code (like 4326, 3413, 3031)
 shp_proj = '3413'      # CRS of the shapefiles (box and lines) as EPSG code (like 4326, 3413, 3031); UTM currently not possible
 
 ### define plot parameters ###
