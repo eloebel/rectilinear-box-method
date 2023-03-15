@@ -23,7 +23,7 @@ pooch
 pycparser
 pyOpenSSL
 pyparsing
-pyproj
+pyproj==3.4.0
 pyshp
 PySocks
 python-dateutil
