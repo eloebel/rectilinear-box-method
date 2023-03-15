@@ -9,7 +9,7 @@ conda create --name <env_name> --file requirements.txt
 ```
 
 ## Usage
-This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers three things are needed:
+This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset, the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers, three inputs are needed:
 
 1. Glacier box (Polygon Shapefile format)
 2. Claving front locations (LineSting Shapefile format)
