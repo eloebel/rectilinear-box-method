@@ -94,8 +94,6 @@ with TiffFile(basemap) as tif:                  # load .tif
     basemap_raster = tif.asarray()
 
 basemap = gdal.Open(basemap)
-#prj=basemap.GetProjection()
-#UTM_zone=(prj.split("UTM zone ",1)[1])[ 0 : 2 ] # getting UTM zone
             
 width_basemap = basemap.RasterXSize             # getting width
 height_basemap = basemap.RasterYSize            # getting height
