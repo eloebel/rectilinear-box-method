@@ -4,7 +4,9 @@ The rectilinear box method is a well-established tool for tracking glacier termi
 
 ## Installation
 Install all requirements using:
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers three things are needed:
