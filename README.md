@@ -3,7 +3,7 @@ The rectilinear box method is a well-established tool for tracking glacier termi
 ![jakobshavn_git](https://user-images.githubusercontent.com/68990782/188456837-30c44202-971b-4d4c-9ac8-3d3e011543b3.png)
 
 ## Installation
-Install all requirements using:
+To run this tool, clone the repository and install all requirements using:
 ```
 pip install -r requirements.txt
 ```
