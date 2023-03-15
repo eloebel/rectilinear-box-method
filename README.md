@@ -7,10 +7,6 @@ To run this tool, clone the repository and install all required python packages.
 ```
 conda create --name <env_name> --file requirements.txt
 ```
-or `pip`
-```
-pip install -r requirements.txt
-```
 
 ## Usage
 This repository already includes example data for the Glacier *Harald Moltke Bræ* (Greenland). For this dataset the script works out-of-the-box by running `python box_method.py`. For analyzing other glaciers three things are needed:
