@@ -110,7 +110,7 @@ plot_extent=[box_wgs84.bounds[0], box_wgs84.bounds[2], box_wgs84.bounds[1], box_
 
 ### plotting basemap (background image) ###
 print('  - plotting the basemap ...')
-ax1 = fig.add_subplot(gs[0:2, 0:19],projection=ccrs.NorthPolarStereo()) 
+ax1 = fig.add_subplot(gs[0:2, 0:19],projection=ccrs.Stereographic()) 
 ax1.set_extent(plot_extent)
 if basemap_proj == 'UTM':
     prj=basemap.GetProjection()
