@@ -25,6 +25,21 @@ Calculated terminus changes are saved to a text file. In addition, an overview i
 
 Without additional information, the tool does not know whether the glacier is retreating or advancing. In its current state, it assumes that the calving front is retreating. If this is not the case and the resulting time series is mirrored, the `>` must be replaced by a `<` in line 177 of `box_method.py`.
 
+## Citation
+If you find our software helpful and use it in your research, please use the following BibTeX entry.
+````
+@Article{loebel2023,
+AUTHOR = {Loebel, E. and Scheinert, M. and Horwath, M. and Humbert, A. and Sohn, J. and Heidler, K. and Liebezeit, C. and Zhu, X. X.},
+TITLE = {Calving front monitoring at sub-seasonal resolution: a deep learning application to Greenland glaciers},
+JOURNAL = {The Cryosphere Discussions},
+VOLUME = {2023},
+YEAR = {2023},
+PAGES = {1--21},
+URL = {https://tc.copernicus.org/preprints/tc-2023-52/},
+DOI = {10.5194/tc-2023-52}
+}
+````
+
 ## Contact
 **Erik Loebel**  
 TU Dresden | Geodetic Earth System Research   
