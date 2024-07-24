@@ -28,15 +28,16 @@ Without additional information, the tool does not know whether the glacier is re
 ## Citation
 If you find our software helpful and use it in your research, please use the following BibTeX entry.
 ````
-@Article{loebel2023,
+@Article{loebel2024,
 AUTHOR = {Loebel, E. and Scheinert, M. and Horwath, M. and Humbert, A. and Sohn, J. and Heidler, K. and Liebezeit, C. and Zhu, X. X.},
-TITLE = {Calving front monitoring at sub-seasonal resolution: a deep learning application to Greenland glaciers},
-JOURNAL = {The Cryosphere Discussions},
-VOLUME = {2023},
-YEAR = {2023},
-PAGES = {1--21},
-URL = {https://tc.copernicus.org/preprints/tc-2023-52/},
-DOI = {10.5194/tc-2023-52}
+TITLE = {Calving front monitoring at a subseasonal resolution: a deep learning application for Greenland glaciers},
+JOURNAL = {The Cryosphere},
+VOLUME = {18},
+YEAR = {2024},
+NUMBER = {7},
+PAGES = {3315--3332},
+URL = {https://tc.copernicus.org/articles/18/3315/2024/},
+DOI = {10.5194/tc-18-3315-2024}
 }
 ````
 
