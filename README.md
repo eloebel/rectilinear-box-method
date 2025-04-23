@@ -45,5 +45,4 @@ DOI = {10.5194/tc-18-3315-2024}
 **Erik Loebel**  
 TU Dresden | Geodetic Earth System Research   
 [tu-dresden.de/geo/ipg/gef](https://tu-dresden.de/bu/umwelt/geo/ipg/gef)  
-[erik.loebel@tu-dresden.de](mailto:erik.Loebel@tu-dresden.de)  
-[@ErikLoebel](https://twitter.com/erikloebel)  
+[erik.loebel@tu-dresden.de](mailto:erik.Loebel@tu-dresden.de)
